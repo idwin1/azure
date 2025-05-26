@@ -1,4 +1,5 @@
 <?php
+/*
 $conexion = new mysqli("localhost", "root", "", "formulario_db");
 
 if ($conexion->connect_error) {
@@ -17,7 +18,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["nombre"]) && isset($_P
 // Obtener datos
 $registros = $conexion->query("SELECT * FROM personas");
 ?>
-
+*/
 <!DOCTYPE html>
 <html>
 <head>
