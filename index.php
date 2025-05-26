@@ -17,8 +17,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["nombre"]) && isset($_P
 
 // Obtener datos
 $registros = $conexion->query("SELECT * FROM personas");
-?>
 */
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
